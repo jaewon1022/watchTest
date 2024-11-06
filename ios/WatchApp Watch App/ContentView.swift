@@ -8,15 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+  @ObservedObject var connectionHelper = ConnectionHelper()
+
+  var body: some View {
+    VStack {
+      Button("+", action: {
+        connectionHelper.count += 1
+        connectionHelper.sendNewCount()
+      })
+      Text("\(connectionHelper.count)")
+      Button("-", action: {
+        connectionHelper.count -= 1
+        connectionHelper.sendNewCount()
+      })
     }
+  }
 }
 
 #Preview {

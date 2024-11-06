@@ -16,6 +16,7 @@
 		04A53F522CDB635B005E3FC8 /* WatchApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A53F512CDB635B005E3FC8 /* WatchApp_Watch_AppUITests.swift */; };
 		04A53F542CDB635B005E3FC8 /* WatchApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A53F532CDB635B005E3FC8 /* WatchApp_Watch_AppUITestsLaunchTests.swift */; };
 		04A53F572CDB635B005E3FC8 /* WatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04A53F342CDB6343005E3FC8 /* WatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04A53F632CDB6455005E3FC8 /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A53F622CDB6455005E3FC8 /* ConnectionHelper.swift */; };
 		0C80B921A6F3F58F76C31292 /* libPods-watchTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-watchTest.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -84,6 +85,7 @@
 		04A53F4D2CDB635A005E3FC8 /* WatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A53F512CDB635B005E3FC8 /* WatchApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		04A53F532CDB635B005E3FC8 /* WatchApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04A53F622CDB6455005E3FC8 /* ConnectionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionHelper.swift; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* watchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = watchTest/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = watchTest/AppDelegate.mm; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				04A53F382CDB6343005E3FC8 /* ContentView.swift */,
 				04A53F3A2CDB6353005E3FC8 /* Assets.xcassets */,
 				04A53F3C2CDB6353005E3FC8 /* Preview Content */,
+				04A53F622CDB6455005E3FC8 /* ConnectionHelper.swift */,
 			);
 			path = "WatchApp Watch App";
 			sourceTree = "<group>";
@@ -607,6 +610,7 @@
 			files = (
 				04A53F392CDB6343005E3FC8 /* ContentView.swift in Sources */,
 				04A53F372CDB6343005E3FC8 /* WatchAppApp.swift in Sources */,
+				04A53F632CDB6455005E3FC8 /* ConnectionHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
